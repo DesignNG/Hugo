@@ -3,3 +3,20 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "sites/aspley/static/images/uploads"
 public_folder: "/images/uploads"
+- label: "Pages"
+  name: "pages"
+  files:
+    - label: "Homepage"
+      name: "home"
+      file: "sites/aspley/content/_index.yml"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Subtitle", name: "subtitle", widget: "markdown"}
+        - {label: "Content", name: "body", widget: "markdown"}
+    - label: "About Us Page"
+      name: "about"
+      file: "sites/aspley/content/about.yml"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Subtitle", name: "subtitle", widget: "markdown"}
+        - {label: "Content", name: "body", widget: "markdown"}
