@@ -9,14 +9,14 @@ collections:
     files:
       - label: "Homepage"
         name: "home"
-        file: "sites/aspley/content/_index.yml"
+        file: "sites/aspley/content/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "markdown"}
           - {label: "Content", name: "body", widget: "markdown"}
       - label: "About Us Page"
         name: "about"
-        file: "sites/aspley/content/about.yml"
+        file: "sites/aspley/content/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "markdown"}
