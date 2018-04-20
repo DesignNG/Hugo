@@ -1,6 +1,7 @@
 baseurl = "/"
 contentdir = "sites/woodborough/content"
 publishdir = "sites/woodborough/public"
+staticdir = "sites/aspley/static"
 languageCode = "en-gn"
 title = "Woodborough"
 theme = "base"

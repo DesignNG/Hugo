@@ -1,6 +1,7 @@
 baseurl = "/"
 contentdir = "sites/aspley/content"
 publishdir = "sites/aspley/public"
+staticdir = "sites/aspley/static"
 languageCode = "en-gn"
 title = "Aspley"
 theme = "base"
